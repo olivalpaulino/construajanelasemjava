@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 3px;
+    padding: 0px;
 }
 
 header {
@@ -21,7 +21,8 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
-    border: 1px solid gray;
+    background-color: black;
+    color: white;
 }
 
 #descricao {
@@ -41,4 +42,24 @@ section{
 
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #2d65f6;
+    border: 1px solid #2d65f6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.preto {
+    background-color: black;
+    color: white;
+}
+
+.azul {
+    background-color: #2d65f6;
+    color: white;
 }
