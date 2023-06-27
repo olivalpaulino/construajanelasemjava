@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 3px;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid gray;
+}
+
+#descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
